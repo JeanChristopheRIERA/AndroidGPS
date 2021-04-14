@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".NavigationFragment">
+
+        <Button
+            android:id="@+id/bottomCheckPermission"
+            android:text="Check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/bottomSwitchOnOffGPS"
+            android:text="GPS on/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+                android:id="@+id/bottomSetting"
+                android:text="App Setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+</LinearLayout>
